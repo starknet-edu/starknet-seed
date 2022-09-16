@@ -4,7 +4,7 @@ Simple seed project for StarkNet using only Python's built-in tools.
 
 ## Usage
 
-To create the virtual environment and install dependencies run (only once):
+To create the virtual environment and install dependencies run (can be run multiple times):
 
 ```
 bash setup.sh
