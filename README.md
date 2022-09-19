@@ -2,16 +2,27 @@
 
 Simple seed project for StarkNet using only Python's built-in tools.
 
-## Usage
+## Requirements
 
-To create the virtual environment and install dependencies run (can be run multiple times):
+Two packages are required to be globally available: `gmp` and `python3.9`.
+
+On macOS you can get them by running:
 
 ```
-bash setup.sh
+$ brew update && brew upgrade
+$ brew install gmp python@3.9
+```
+
+## Usage
+
+To create the virtual environment and install dependencies run:
+
+```
+$ bash setup.sh
 ```
 
 To activate the virtual environment run:
 
 ```
-source env/bin/activate
+$ source env/bin/activate
 ```
