@@ -9,8 +9,15 @@ Two packages are required to be globally available: `gmp` and `python3.9`.
 On macOS you can get them by running:
 
 ```
-$ brew update && brew upgrade
 $ brew install gmp python@3.9
+```
+
+On Ubuntu you'll need to install `deadsnakes` PPA first to have access to all versions of Python and then install the dependencies.
+
+```
+$ sudo add-apt-repository ppa:fkrull/deadsnakes
+$ sudo apt update
+$ sudo apt install -y libgmp3-dev python3.9
 ```
 
 ## Usage
